@@ -1,0 +1,38 @@
+{
+    "userSuccess": {
+        "username": "Heath93",
+        "password": "s3cret"
+    },
+    "userFail": {
+        "username": "teste",
+        "password": "teste123"
+    },
+    "signUpSucess": {
+        "firstName": "Maria",
+        "lastName": "Tramontin",
+        "username": "mariaTramontin",
+        "password": "testesucess",
+        "confirmPassword": "testesucess"
+    },
+    "signUpFail": {
+        "firstName": "Maria",
+        "lastName": "tramontin",
+        "username": "mariaTramontin",
+        "password": "testefail",
+        "confirmPassword": "teste"
+    },
+    "sendMoneySucess": {
+        "amount": "100",
+        "note": "test sucess"
+    },
+    "sendMoneyFail": {
+        "amount": "2000000",
+        "note": "test fail"
+    },
+    "newUser": {
+        "username": "marytramontin",
+        "password": "teste123"
+    }
+
+
+}
