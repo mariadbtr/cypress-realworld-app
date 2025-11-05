@@ -30,9 +30,12 @@
         "note": "test fail"
     },
     "newUser": {
-        "username": "marytramontin",
-        "password": "teste123"
+        "username": "mariaTramontin",
+        "password": "testesucess"
+    },
+    "bankAccount": {
+        "bankName": "Intertest",
+        "routingNumber": "123456789",
+        "accountingNumber": "102034423"
     }
-
-
 }

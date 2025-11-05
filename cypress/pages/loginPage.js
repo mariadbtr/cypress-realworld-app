@@ -20,7 +20,7 @@ class LoginPage{
     }
 
     checkAccessInvalid(){
-        cy.get(this.selectorsList().wrongCredentials)
+        cy.get(this.selectorsList().wrongCredentials).should('be.visible')
     }
 }
 export default LoginPage

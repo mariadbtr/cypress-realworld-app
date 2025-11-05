@@ -7,6 +7,10 @@ class SignUpPage{
             passwordField: "[name='password']",
             confirmPasswordField: "[name='confirmPassword']",
             signUpButtom: "[type='submit']",
+            nextButtom: ".MuiButton-textPrimary",
+            bankName: "[placeholder='Bank Name']",
+            routingNumber: "[placeholder='Routing Number']",
+            accountNumber: "[placeholder='Account Number']",
             alertAcessInvalid: "[aria-invalid='true']"
         }
         return selectors
@@ -22,7 +26,13 @@ class SignUpPage{
         cy.get(this.selectorsList().confirmPasswordField).type(confirmPassword)
     }
     signUpButtom(){
-        cy.get(this.selectorsList().signUpButtom)
+        cy.get(this.selectorsList().signUpButtom).click()
+    }
+    firstLogin(bankName, routingNumber,accountNumber){
+        cy.get(this.selectorsList().nextButtom).click()
+        cy.get(this.selectorsList().bankName).type(bankName)
+        cy.get(this.selectorsList().routingNumber).type(routingNumber)
+        cy.get(this.selectorsList().accountNumber).type(accountNumber)
     }
     acessInvalid(){
         cy.get(this.selectorsList().alertAcessInvalid)

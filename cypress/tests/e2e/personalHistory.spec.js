@@ -16,7 +16,7 @@ describe('Visualizar histórico de transações com sucesso', () => {
 });
 
 describe('Tentar visualizar o histórico de transações sem transações anteriores', () => {
-  it.only('Deve exibir uma mensagem indicando que o usuário não possui transações anteriores', () => {
+  it('Deve exibir uma mensagem indicando que o usuário não possui transações anteriores', () => {
     loginPage.accessLoginPage()
     loginPage.loginWithAnyUser(userData.newUser.username, userData.newUser.password)
     personalHistory.viewHistory()

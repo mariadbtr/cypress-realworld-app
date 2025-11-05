@@ -26,7 +26,7 @@
       "phoneNumber": "410-786-2112",
       "avatar": "https://avatars.dicebear.com/api/human/GjWovtg2hr.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 400103026,
+      "balance": 200113026,
       "createdAt": "2023-04-23T13:52:10.979Z",
       "modifiedAt": "2024-03-07T09:07:46.709Z"
     },
@@ -76,15 +76,15 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "h0lKCYdah",
-      "uuid": "ccd2c9ee-242e-40ef-b7d2-6af3c83a4539",
-      "firstName": "maria",
-      "lastName": "tramontin",
-      "username": "marytramontin",
-      "password": "$2a$10$yu8Cjxn4U9punVvtJSAe2eu0BmfUvQEfGkvKbxDWn41aRNWCL1OFW",
+      "id": "s_Is0QE_Y",
+      "uuid": "52c85ac9-4a02-4e64-8da4-6baa466763e7",
+      "firstName": "Maria",
+      "lastName": "Tramontin",
+      "username": "mariaTramontin",
+      "password": "$2a$10$FKvUWZIzdurHeYk1fqLJDO7JlvfDmRnETrOJ7J7VZpLgaVNSnVuLe",
       "balance": 0,
-      "createdAt": "2025-11-03T23:06:37.776Z",
-      "modifiedAt": "2025-11-03T23:06:37.776Z"
+      "createdAt": "2025-11-05T22:48:55.521Z",
+      "modifiedAt": "2025-11-05T22:48:55.521Z"
     }
   ],
   "contacts": [
@@ -264,17 +264,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "34PI1-zRP",
-      "uuid": "358e4369-359d-4c62-bfe5-01557b7a30d0",
-      "userId": "h0lKCYdah",
-      "bankName": "newbank",
-      "accountNumber": "123456678",
-      "routingNumber": "123455677",
-      "isDeleted": false,
-      "createdAt": "2025-11-03T23:20:46.813Z",
-      "modifiedAt": "2025-11-03T23:20:46.813Z"
     }
   ],
   "transactions": [
@@ -9879,40 +9868,40 @@
       "modifiedAt": "2024-03-07T21:58:09.668Z"
     },
     {
-      "id": "S3ht6a40R",
-      "uuid": "2a2d8182-7445-46c5-a8cf-232f3667d3db",
-      "amount": 200000000,
-      "description": "test fail",
-      "receiverId": "GjWovtg2hr",
-      "senderId": "uBmeaz5pX",
-      "privacyLevel": "public",
-      "status": "complete",
-      "createdAt": "2025-11-03T23:28:15.684Z",
-      "modifiedAt": "2025-11-03T23:28:15.684Z"
-    },
-    {
-      "id": "KlfwBx3Ux",
-      "uuid": "f0c605c7-b640-413b-9c5b-fff976d8eb59",
+      "id": "MeuWY6wcA",
+      "uuid": "3e578df4-e1a9-4ee3-9c7d-48fda44bca29",
       "amount": 10000,
       "description": "test sucess",
       "receiverId": "GjWovtg2hr",
       "senderId": "uBmeaz5pX",
       "privacyLevel": "public",
       "status": "complete",
-      "createdAt": "2025-11-03T23:28:30.160Z",
-      "modifiedAt": "2025-11-03T23:28:30.160Z"
+      "createdAt": "2025-11-05T22:47:57.743Z",
+      "modifiedAt": "2025-11-05T22:47:57.743Z"
     },
     {
-      "id": "RnRlkm4a4",
-      "uuid": "1b6eaf23-24c7-42eb-897c-d7cc133a3340",
+      "id": "j_yaRv6sv",
+      "uuid": "984f415a-be95-4ddf-b621-8a5a50e9bb68",
+      "amount": 10000,
+      "description": "test sucess",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-11-05T22:48:33.388Z",
+      "modifiedAt": "2025-11-05T22:48:33.388Z"
+    },
+    {
+      "id": "fSA6EAFwK",
+      "uuid": "2983065a-0f06-433e-991a-b222423e728b",
       "amount": 200000000,
       "description": "test fail",
       "receiverId": "GjWovtg2hr",
       "senderId": "uBmeaz5pX",
       "privacyLevel": "public",
       "status": "complete",
-      "createdAt": "2025-11-03T23:28:36.735Z",
-      "modifiedAt": "2025-11-03T23:28:36.735Z"
+      "createdAt": "2025-11-05T22:48:41.220Z",
+      "modifiedAt": "2025-11-05T22:48:41.220Z"
     }
   ],
   "likes": [
@@ -10491,34 +10480,34 @@
       "modifiedAt": "2024-03-07T17:13:52.110Z"
     },
     {
-      "id": "f8vfXmp6or",
-      "uuid": "1038d543-ad56-4357-b430-c36358a16952",
+      "id": "P0GDJLeIAG",
+      "uuid": "30ceb8f5-ad41-4168-b0d5-9acda76e5c47",
       "userId": "GjWovtg2hr",
-      "transactionId": "S3ht6a40R",
+      "transactionId": "MeuWY6wcA",
       "status": "received",
       "isRead": false,
-      "createdAt": "2025-11-03T23:28:15.769Z",
-      "modifiedAt": "2025-11-03T23:28:15.769Z"
+      "createdAt": "2025-11-05T22:47:58.009Z",
+      "modifiedAt": "2025-11-05T22:47:58.009Z"
     },
     {
-      "id": "KH4_oQcXkg",
-      "uuid": "37466b4e-2e82-43b5-b686-9a82bdb6da58",
+      "id": "Okszx7PiWt",
+      "uuid": "28f99473-9790-4bb2-91bd-12d0b070dace",
       "userId": "GjWovtg2hr",
-      "transactionId": "KlfwBx3Ux",
+      "transactionId": "j_yaRv6sv",
       "status": "received",
       "isRead": false,
-      "createdAt": "2025-11-03T23:28:30.183Z",
-      "modifiedAt": "2025-11-03T23:28:30.183Z"
+      "createdAt": "2025-11-05T22:48:33.701Z",
+      "modifiedAt": "2025-11-05T22:48:33.701Z"
     },
     {
-      "id": "9hk_YTOTyv",
-      "uuid": "de7822ac-97c4-4057-8f78-6cf8544461f3",
+      "id": "A4s2bo7K5E",
+      "uuid": "f652ff3a-1d2f-4946-b70e-7e71c6deea8e",
       "userId": "GjWovtg2hr",
-      "transactionId": "RnRlkm4a4",
+      "transactionId": "fSA6EAFwK",
       "status": "received",
       "isRead": false,
-      "createdAt": "2025-11-03T23:28:36.752Z",
-      "modifiedAt": "2025-11-03T23:28:36.752Z"
+      "createdAt": "2025-11-05T22:48:41.354Z",
+      "modifiedAt": "2025-11-05T22:48:41.354Z"
     }
   ],
   "banktransfers": [
@@ -11073,34 +11062,14 @@
       "modifiedAt": "2024-03-07T13:32:42.472Z"
     },
     {
-      "id": "pdR9aVUPgr",
-      "uuid": "37a08dad-620c-4e6f-bd15-cec8cb2a3245",
+      "id": "X6LP33V0dv",
+      "uuid": "f9f4e08a-1555-4200-8b96-2cfdc961fd79",
       "userId": "uBmeaz5pX",
-      "amount": 199849047,
-      "transactionId": "S3ht6a40R",
+      "amount": 199869047,
+      "transactionId": "fSA6EAFwK",
       "type": "withdrawal",
-      "createdAt": "2025-11-03T23:28:15.710Z",
-      "modifiedAt": "2025-11-03T23:28:15.710Z"
-    },
-    {
-      "id": "riAHokRg_-",
-      "uuid": "88d52a4c-8975-49ad-aaf3-a4a907f2e763",
-      "userId": "uBmeaz5pX",
-      "amount": 10000,
-      "transactionId": "KlfwBx3Ux",
-      "type": "withdrawal",
-      "createdAt": "2025-11-03T23:28:30.166Z",
-      "modifiedAt": "2025-11-03T23:28:30.166Z"
-    },
-    {
-      "id": "EIQ15T31Q1",
-      "uuid": "530187c5-a146-45c7-9acc-39c549aba150",
-      "userId": "uBmeaz5pX",
-      "amount": 200000000,
-      "transactionId": "RnRlkm4a4",
-      "type": "withdrawal",
-      "createdAt": "2025-11-03T23:28:36.738Z",
-      "modifiedAt": "2025-11-03T23:28:36.738Z"
+      "createdAt": "2025-11-05T22:48:41.245Z",
+      "modifiedAt": "2025-11-05T22:48:41.245Z"
     }
   ]
 }
